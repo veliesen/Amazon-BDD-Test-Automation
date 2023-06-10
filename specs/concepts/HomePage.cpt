@@ -1,0 +1,52 @@
+# Homepage Account Section Hover
+* "100" Second Wait
+* Hover "nav-link-accountList-nav-line-1" Element And Wait "500" Seconds
+
+# Homepage Account Section Check Text And Click On SignIn Button
+* "500" Second Wait
+* Hover "nav-link-accountList-nav-line-1" Element And Wait "500" Seconds
+* Find Element "nav-flyout-ya-newCust" Check "Yeni müşteri misiniz? Üye olun."
+* Click On "nav-flyout-ya-signin" On Hover
+* Find Element "h1[class='a-spacing-small']" on SignIn Page And Check "Giriş yap"
+* Navigate to Homepage
+
+# Homepage Return and Orders Section Click And Check Navigated SignIn Page
+* Find Element "nav-orders" on Homepage And Click on
+* Find Element "h1[class='a-spacing-small']" on SignIn Page And Check "Giriş yap"
+* Navigate to Homepage
+
+# Homepage Location Section Click, Checks The Text On PopUp And Click On Button on PopUp, Check Text On SignIn Page
+* Find Location Section Element "nav-global-location-popover-link" on Homepage And Click On
+* Find Element "span[class='a-text a-color-secondary a-spacing-medium a-size-small']" on SignIn Page And Check "Teslimat seçenekleri ve hızı, teslimat adresine bağlı olarak değişiklik gösterebilir." On PopUp
+* Click On "input[aria-label='Adresinizi görmek için giriş yapın']" Button To View Your Adress
+* Find Element "h1[class='a-spacing-small']" on SignIn Page And Check "Giriş yap"
+* Navigate to Homepage
+
+# Homepage Click On Categories, Select Baby Category And Check Baby Category Selected
+* Click "searchDropdownBox" Element On Categories
+* Click On "option[value='search-alias=baby']" Element Baby Categories
+* Get Text in "option[value='search-alias=baby']" Element And Check "Bebek" Text as Category Selected
+
+# Search Specicific Product By ASIN And Return Homepage
+* Find "twotabsearchtextbox" Element Write "B0C46CZCFX" On Searh Tab
+* Click On "nav-search-submit-button" Element Search Button
+* Accept Cookies By Clicking On "sp-cc-accept" Element
+* Find Element "span[class='a-size-base-plus a-color-base a-text-normal']" Product Page And Check "Oyun konsolu,mewmewcat RGB10MAX2 El Retro Oyun Konsolu 64GB TF Kartlı Taşınabilir Video Oyun Oyuncular 22000 Oyunlar Dahili WiFi 5 inç IPS Ekran Açık Kaynak Linux Sistemi 3.5mm Ses Çıkışı" Product Description
+* Click On "nav-logo-sprites" Element Amazon Logo And Return HomePage
+
+# Add A Product To Cart And Empty Cart
+* Find "twotabsearchtextbox" Element Write "B0C46CZCFX" On Searh Tab
+* Click On "nav-search-submit-button" Element Search Button
+* Find Element "span[class='a-size-base-plus a-color-base a-text-normal']" Click On Product Description
+* Click on "input[id='add-to-cart-button']" Element Buy Box Button And Wait "1000" Seconds
+* Find Element "span[class='a-size-medium-plus a-color-base sw-atc-text a-text-bold']" Product Page And Check "Sepete Eklendi" Product Added To Cart And Wait For "1000" Seconds
+* Navigate to Homepage
+* Click On "nav-cart-text-container" Element Go To Cart
+* Click On "span[class='a-size-small sc-action-delete']" Element Empty Cart
+* Click On "nav-cart-text-container" Element To View Cart
+* Find "/html/body/div[1]/div[2]/div[3]/div[4]/div/div[2]/div[1]/div/div/div[2]/div[1]/h2" Element And Check "Amazon Sepetiniz boş" Cart Empty
+* Click On "nav-logo-sprites" Element Amazon Logo And Return HomePage
+
+
+
+

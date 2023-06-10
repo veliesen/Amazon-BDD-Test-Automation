@@ -1,0 +1,31 @@
+# Homepage Hover Account Section, Click On SignIn Button And Check Welcoming Page
+* Hover on "nav-link-accountList-nav-line-1" Element Account Section For "1500" Seconds
+* Click On "nav-flyout-ya-signin" Element SignIn Button
+* Find Element "h1[class='a-spacing-small']" Check Welcoming Page "Giriş yap" And Wait "500" MiliSeconds
+
+# SignInPage Attempt To Sign In With Blank Email Text
+* Find "input[id='ap_email']" Element And Clear Email Tab
+* Click On "continue" Element To Continue
+* Find "div.a-alert-content:nth-child(2)" Element Check "E-posta adresinizi veya cep telefonu numaranızı girin" As Warning Message
+
+# SignInPage Valid Email Entry And Check the Text On Password Page
+* Find "input[id='ap_email']" Element And Clear Email Tab
+* Find "input[id='ap_email']" Element And Enter Valid "bW1vdmVzZW4xQGdtYWlsLmNvbQ=="
+* Click On "continue" Element To Continue
+* Find Element "[class='a-form-label'][for='ap_password']" Product Page And Check "Şifre" Password Page
+
+# Enter Valid Password And Check Account Name
+* Enter "QXR3YTE5ODU" in "input[id='ap_password']" Tab
+* Find "signInSubmit" Element Click On SignIn Button
+* Find "nav-link-accountList-nav-line-1" Element Check "Veli" Account Name
+
+# SignOut And Check Account Name
+* Hover on "nav-link-accountList-nav-line-1" Element Account Section For "1000" Seconds
+* Find "a[id='nav-item-signout']" Element Click On SignOut Link
+* Find Element "h1[class='a-spacing-small']" on SignIn Page And Check "Giriş yap"
+
+
+
+
+
+

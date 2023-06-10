@@ -1,0 +1,22 @@
+
+# Homepage Hover Account Section, Click On Create Account Link
+* Hover "nav-link-accountList-nav-line-1" Element And Wait "500" Seconds
+* Find Element "nav-flyout-ya-newCust" Check "Yeni müşteri misiniz? Üye olun."
+* Find "a[class='nav-a']" Element Click On Create Account Link
+
+# Account Creation Page Check And Clear Name, Email,Password Tab
+* Find "h1[class='a-spacing-small']" Element Check "Hesap oluşturun" on Account Creation Page
+* Find "input[id='ap_email']" Element And Clear Email Tab On Account Create Page
+* Find "input[id='ap_password']" Element And Clear Password Tab On Account Create Page
+
+
+# Fill Username and Email, Check Warning Text
+* Find "input[id='ap_customer_name']" Element And Send Generated Text
+* Find "input[id='ap_email']" Element And Send Generated Email
+* Find "input[id='continue']" Element Click On Submit To Confirm Email
+* Find "div[id='auth-password-missing-alert']" Element And Check Warning "Minimum 6 karakter gerekli" On Password Section
+
+# Navigate To Homepage And Check Account Section
+* Find "i[class='a-icon a-icon-logo']" Element Click On Navigate Homepage
+* Hover "nav-link-accountList-nav-line-1" Element And Wait "500" Seconds
+* Find Element "nav-flyout-ya-newCust" Check "Yeni müşteri misiniz? Üye olun."
